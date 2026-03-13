@@ -10,9 +10,9 @@ int main(){
    
    
     if(n1>=20 && n1<=50){
-        printf("\n%d esta entre 20 e 50", n1);
+        printf("\n%d esta entre 20 e 50\n", n1);
     }else{
-        printf("\n%d não esta entre 20 e 50", n1);
+        printf("\n%d não esta entre 20 e 50\n", n1);
     }
 
     return 0;
