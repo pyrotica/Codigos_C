@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main(){
-    int n1, n2, n3;
+    int n1, n2, n3, soma;
     float media;
 
     printf("Digite o primeiro ponto: ");
@@ -32,10 +32,10 @@ int main(){
         printf("\n\tPontos Por Jogador");
         printf("\nJogador 3: %d\nJogador 2: %d\nJogador 1: %d\n", n3, n2, n1);
     }
-
+soma=n1+n2+n3;
 media=(n1+n2+n3)/3;
 
-if(media>100){
+if(soma>100){
     printf("\nA media Aritmética da equipe foi de: %.2f", media);
 }else{
     printf("\nEquipe desclassificada");
