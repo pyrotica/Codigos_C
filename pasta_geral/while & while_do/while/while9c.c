@@ -22,7 +22,5 @@ int main(){
        printf("Bem-Vindo");
    }
     
-    
-    
     return 0;
 }
