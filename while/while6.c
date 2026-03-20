@@ -12,6 +12,7 @@ int main()
     printf("Digite o usuario: ");
         scanf("%s", &usuario);
     while (senha!=senhap && usuario!=usuariop){
+         
           printf("\n Senha ou usuario incorretos\nTente novamente\n");
            printf("Digite sua senha: ");
           scanf("%d", &senha);
