@@ -9,6 +9,7 @@ int main()
    int v[4]={1,2,3,4};
    int *p =v;
    printf("pre-Dados: %d, %d, %d, %d", v[0], v[1], v[2], v[3]);
+   printf("\napontado por p: %d", *p);
    avancar(&p); // avança para casa 1 (2) -> (12)
    avancar(&p); // avança para cada 2 (3) -> (13)
    
