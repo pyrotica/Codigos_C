@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(){
 
@@ -10,7 +9,7 @@ int main(){
     for (i=0; i<5; i++){
         printf("Digite o valor da casa %d: ",i);
         scanf("%d", &vetor[i]);
-        // printf("");
+        printf("\n");
     }
     p=vetor;
     for(i=0;i<5;i++){
