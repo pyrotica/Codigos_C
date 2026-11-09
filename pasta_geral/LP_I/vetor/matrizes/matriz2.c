@@ -17,7 +17,7 @@ int main(){
     // Matriz 3 = matriz 1 * 5
    for (i=0;i<3;i++){
         for(j=0;j<3;j++){
-            matrix_result[i][j]=matrix1[i][j]*k
+            matrix_result[i][j]=matrix1[i][j]*k;
         }
     }
     // Impressão
