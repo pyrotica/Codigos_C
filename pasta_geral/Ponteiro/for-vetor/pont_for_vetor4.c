@@ -14,7 +14,7 @@ int main()
     i=0;
     *(p+i);
     for(i=0;i<5;i++){
-        printf("%d° valor digitado: %d\n",i+1, *p);
+        printf("%d° valor digitado: %p\n",i+1, *p);
         *(p+i);
         p++;
     }
