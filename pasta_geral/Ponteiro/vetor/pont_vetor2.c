@@ -13,7 +13,7 @@ int main()
    printf("dado: %d", v[0]);
    printf("\ndado: %d", v[1]);
    printf("\ndado: %d\n\n", v[2]);
-   pp++;
+   pp++; 
    
    **pp=20;
    printf("pre **pp=20\n\n");
