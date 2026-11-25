@@ -29,7 +29,7 @@ int main(){
       
     }
     if(encontrar!=1){
-        printf("\Nvalor não encontardo");
+        printf("\nvalor não encontardo");
         }
 
     return 0;
